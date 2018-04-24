@@ -11,3 +11,11 @@
     2. Python in C
     3. Example: nvml
     4. Example: using numpy ?
+
+4. Remarks
+    - What is Cython?
+    - Alternative: CFFI
+
+5. Cuda & Python
+    - ctypes
+    - c-ext
