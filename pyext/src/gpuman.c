@@ -3,7 +3,7 @@
 
 static PyObject *NVMLError;
 
-/* 
+/*
  * Return a list of ids of idleing NVidia GPU devices
  */
 static PyObject * gpuman_nvidia_idle(PyObject *self, PyObject *args) {

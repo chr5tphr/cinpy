@@ -1,6 +1,6 @@
 1. Why?
     - use libraries not available in C
-    - implement some routines in a more performant manner 
+    - implement some routines in a more performant manner
 
 2. ctypes
     1. using existing libraries
@@ -9,8 +9,8 @@
 3. python c-extensions
     1. minimal extension
     2. Python in C
-    3. Example: nvml
-    4. Example: using numpy ?
+    3. How to compile?
+    4. Example: nvml
 
 4. Remarks
     - What is Cython?

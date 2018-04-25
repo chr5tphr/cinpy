@@ -3,11 +3,11 @@
 
 #define VERSION "0.01 alpha"
 
-/* 
- * Give some version information in a Python-String 
+/*
+ * Give some version information in a Python-String
  */
 static PyObject * minext_version(PyObject *self, PyObject *args) {
-    // we do not need to parse arguments, since we do not have any 
+    // we do not need to parse arguments, since we do not have any
     // and declared this method with METH_NOARGS
     // args is therefore NULL in any case
 
@@ -72,3 +72,4 @@ PyMODINIT_FUNC PyInit_minext() {
     // return our new module
     return m;
 }
+
